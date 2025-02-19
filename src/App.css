@@ -8,31 +8,65 @@
 h1 {
   margin-left: auto;
   margin-right: auto;
-  
+  font-size: 75px;
+  color: #163767;
 }
+
+h2 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  color: #163767;
+}
+
 
 html {
   height: 100%;
 }
 
 body {
+  background: url('../public/background-login.png');
+  background-size: 100% 100%;
   height: 100%;
 }
 
+label {
+  font-size: 25px;
+}
+
+.button {
+  width: 50%;
+  margin: auto;
+  border: none;
+  background-color: #377fbc;
+  font-size: 25px;
+  padding: 5px 5px 5px 5px;
+  color: white;
+}
+
+p {
+  width: 90%;
+  font-size: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #root {
+  
   height: 100%;
 
 }
 
 form {
   /*box-shadow: 2px 2px 2px 2px ;*/
-  height: 75%;
+  height: 85%;
   width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: solid black 2px;
-  border-radius: 5%;
+  border-radius: 25px;
+  background-color: white;
 }
 
 
@@ -40,7 +74,7 @@ form {
 .form-row-1 {
   display: flex;
   flex-direction: column;
-  margin: 10%;
+  margin: 5%;
 }
 
 input {
@@ -51,7 +85,7 @@ input {
 }
 
 .form-row-2 {
-  margin: 10%;
+  margin: 5%;
   display: flex;
   flex-direction: column;
 }
